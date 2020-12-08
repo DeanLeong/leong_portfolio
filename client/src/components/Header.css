@@ -1,3 +1,10 @@
+.header {
+  display: -webkit-flex;
+  background-color: burlywood;
+  height: 10vh;
+  width: 100vw;
+}
+
 .header-title {
   text-decoration: none;
 }
