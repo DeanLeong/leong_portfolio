@@ -2,3 +2,17 @@
   border-radius: 50%;
   height: 25vw;
 }
+
+.social-a {
+  height: 5vh;
+  width: 10vw;
+}
+
+#linkedin {
+  height: 5vh;
+  width: 15vw;
+}
+
+.about-me {
+  border: 1px solid black;
+}
