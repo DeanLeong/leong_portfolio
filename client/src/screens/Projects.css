@@ -1,4 +1,20 @@
+.project-page-container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
 .project-page-screen {
   height: 70vh;
   width: 60vw;
+}
+
+.project-description {
+  width: 60vw;
+}
+
+.other-project-screen {
+  height: 40vh;
+  width: 25vw;
+  border: 1px solid black;
+  margin: 2.5vw;
 }
