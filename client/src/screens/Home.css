@@ -32,6 +32,16 @@
 }
 
 .project-screen {
-  height: 35vh;
+  height: 50vh;
   width: 35vw;
+  border: 1px solid black;
+  margin: 2.5vw;
+}
+
+.projects-screens {
+  margin: 2.5vw;
+}
+
+.projects-title {
+  margin-bottom: 0;
 }

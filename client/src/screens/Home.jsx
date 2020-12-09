@@ -5,7 +5,6 @@ import './Home.css'
 
 function Home(props) {
   return (
-    <Layout>
       <div className="home-container">
         <div className="img-links">
           <img src="https://i.imgur.com/ARSxrrd.jpg" className="me-img" alt="Dean Leong"></img>
@@ -24,15 +23,42 @@ function Home(props) {
             </p>
           </div>
         </div>
+        <h3 className="projects-title">Check out my projects!</h3>
         <div className="projects-screens">
-          <img src="https://i.imgur.com/Gqvwv0U.png" className="project-screen" alt="greenhouse screen"></img>
-          <img src="https://i.imgur.com/wHRy00R.png" className="project-screen" alt="liftlog screen"></img>
+        <Link to="/greenhouse">
+          <img
+            src="https://i.imgur.com/Gqvwv0U.png"
+            className="project-screen"
+            alt="greenhouse screen">
+          </img>
+        </Link>
+        <Link to="/liftlog">
+          <img
+            src="https://i.imgur.com/wHRy00R.png"
+            className="project-screen"
+            alt="liftlog screen">
+          </img>
+        </Link>
+        <Link
+          to="/league-champions">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/league_champions_screen.png"
+            className="project-screen"
+            alt="league champions screen">
+          </img>
+        </Link>
+        <Link to="/the-garage">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/the_garage_screen.png"
+            className="project-screen"
+            alt="league champions screen">
+          </img>
+        </Link>
         </div>
       </div>
-    </Layout>
   );
 }
 
 export default Home;
 
-//https://i.imgur.com/6T4DdWg.png
+//maybe put links in the about me?
