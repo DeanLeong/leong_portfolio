@@ -1,5 +1,5 @@
 .header {
-  display: -webkit-flex;
+  display: flex;
   background-color: burlywood;
   height: 10vh;
   width: 100vw;

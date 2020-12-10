@@ -7,8 +7,9 @@ function Header(props) {
     <div className="header">
       <div className="header-contents">
         <Link to='/' className="header-title">
-          <p className="header-title">Dean Leong - Software Engineer</p>
+          <p className="header-home">Home</p>
         </Link>
+        <p className="header-title">Dean Leong - Software Engineer</p>
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ function Project1(props) {
       </div>
       <p>Other Projects:</p>
       <div className="other-projects-container">
-      <Link to="/greenhouse">
+      <Link to="/greenhouse" >
           <img
             src="https://i.imgur.com/Gqvwv0U.png"
             className="other-project-screen"
