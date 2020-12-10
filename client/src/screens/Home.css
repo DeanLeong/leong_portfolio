@@ -1,6 +1,7 @@
 .home-container {
   display: flex;
   flex-direction: column;
+  background-color: #83b5d1;
 }
 
 .social-a {
@@ -36,6 +37,11 @@
   width: 35vw;
   border: 1px solid black;
   margin: 2.5vw;
+  transition: transform 0.25s;
+}
+
+.project-screen:hover {
+  transform: scale(1.25);
 }
 
 .projects-screens {

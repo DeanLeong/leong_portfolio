@@ -1,13 +1,17 @@
 .header {
   display: flex;
-  background-color: burlywood;
+  background-color: #bfedc1;
   height: 10vh;
   width: 100vw;
 }
 
-.header-title {
-  text-decoration: none;
-}
+/* .header-title {
+  margin-left: 30vw;
+} */
+
+/* .header-home {
+  margin-left: 1vw;
+} */
 
 .header-contents {
   display: flex;

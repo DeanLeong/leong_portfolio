@@ -1,6 +1,7 @@
 .project-page-container {
   display: inline-flex;
   flex-direction: column;
+  background-color: #83b5d1;
 }
 
 .project-page-screen {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css'
 import { Link } from 'react-router-dom'
+import Button from '@material-ui/core/Button'
 
 function Project2(props) {
   return (
