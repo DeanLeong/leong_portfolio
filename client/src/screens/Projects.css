@@ -9,12 +9,17 @@
 }
 
 .project-description {
-  /* width: 60vw; */
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .other-project-screen {
   height: 40vh;
   width: 25vw;
   border: 1px solid black;
+  margin: 2.5vw;
+}
+
+.project-links {
   margin: 2.5vw;
 }

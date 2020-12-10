@@ -62,5 +62,6 @@ function Home(props) {
 
 export default Home;
 
-//maybe put links in the about me?
-//How to make sure the page goes to the top when clicking on project images?
+//Make the plain links in the projects page buttons with material UI
+//find a font
+//touch up the footer
