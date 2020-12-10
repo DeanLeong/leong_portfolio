@@ -51,7 +51,7 @@ function Home(props) {
           <img
             src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/the_garage_screen.png"
             className="project-screen"
-            alt="league champions screen">
+            alt="the garage screen">
           </img>
         </Link>
         </div>
