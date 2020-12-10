@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Project4(props) {
   return (
     <div className="project-page-container">
-      <h2>GreenHouse</h2>
+      <h2>The Garage</h2>
       <div className="title-image-description">
         <a href="https://deanleongthegarage.netlify.app/" target="_blank" rel="noreferrer">
           <img

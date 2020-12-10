@@ -20,6 +20,7 @@ function Home(props) {
             leading and collaboration worked out.
             I hope that by becoming a developer I can bring these skills to a productive and exciting environment that values hard work and trying new things.
              </p>
+            <p>Email: dean.g.leong@gmail.com</p>
             <a href="https://drive.google.com/file/d/1H4p4v7r5iTrFTUI1nWa3IB9SruwynYUQ/view" target="_blank" rel="noreferrer"><p>Resume</p></a>
           </div>
         </div>
@@ -62,3 +63,4 @@ function Home(props) {
 export default Home;
 
 //maybe put links in the about me?
+//How to make sure the page goes to the top when clicking on project images?
