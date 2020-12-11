@@ -68,3 +68,24 @@
     width: 80vw;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .img-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .me-img {
+    display: none;
+  }
+
+  .about-me {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .project-screen {
+    height: 25vh;
+  }
+}
