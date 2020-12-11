@@ -6,6 +6,7 @@
 .about-me-title,
 .projects-title,
 .other-projects-title,
+.contact-me,
 h2 {
   font-family: "Playfair Display", serif;
 }
@@ -29,4 +30,8 @@ h2 {
 
 .other-projects-container {
   margin-top: 0;
+}
+
+.contact-me {
+  font-weight: bold;
 }
