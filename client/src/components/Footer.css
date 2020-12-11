@@ -16,3 +16,15 @@
   height: 5vh;
   width: 10vw;
 }
+
+@media screen and (max-width: 1024px) {
+  .social-a {
+    height: 4vh;
+    width: 8vw;
+  }
+
+  #linkedin {
+    height: 4vh;
+    width: 12vw;
+  }
+}

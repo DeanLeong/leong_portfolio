@@ -57,3 +57,14 @@
 #resume-link {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .projects-screens {
+    display: grid;
+    flex-direction: column;
+  }
+
+  .project-screen {
+    width: 80vw;
+  }
+}

@@ -27,3 +27,15 @@
   margin: 2.5vw;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .project-page-screen {
+    height: 40vh;
+    width: 80vw;
+  }
+
+  .other-project-screen {
+    height: 25vh;
+    width: 40vw;
+  }
+}
