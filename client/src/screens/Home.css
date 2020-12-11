@@ -1,0 +1,91 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #83b5d1;
+}
+
+.social-a {
+  height: 5vh;
+  width: 10vw;
+}
+
+#linkedin {
+  height: 5vh;
+  width: 15vw;
+}
+
+.about-me {
+  border: 1px solid black;
+  width: 65vw;
+  margin-left: 2.5vw;
+  margin-top: 2.5vh;
+  background-color: #fefae0;
+}
+
+.img-links {
+  display: flex;
+}
+
+.me-img {
+  border-radius: 50%;
+  height: 25vw;
+  margin-left: 2.5vw;
+  margin-top: 2.5vh;
+}
+
+.project-screen {
+  height: 50vh;
+  width: 35vw;
+  border: 1px solid black;
+  margin: 2.5vw;
+  transition: transform 0.25s;
+}
+
+.project-screen:hover {
+  transform: scale(1.25);
+}
+
+.projects-screens {
+  margin: 2.5vw;
+}
+
+.projects-title {
+  margin-bottom: 0;
+  margin-top: 10vh;
+}
+
+#resume-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects-screens {
+    display: grid;
+    flex-direction: column;
+  }
+
+  .project-screen {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .me-img {
+    display: none;
+  }
+
+  .about-me {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .project-screen {
+    height: 25vh;
+  }
+}

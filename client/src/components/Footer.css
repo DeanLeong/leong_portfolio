@@ -1,0 +1,30 @@
+.footer-container {
+  /* margin-top: 2.5vh; */
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(240, 83, 94);
+}
+
+.social-a {
+  height: 5vh;
+  width: 6vw;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+#linkedin {
+  height: 5vh;
+  width: 10vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .social-a {
+    height: 4vh;
+    width: 8vw;
+  }
+
+  #linkedin {
+    height: 4vh;
+    width: 12vw;
+  }
+}
