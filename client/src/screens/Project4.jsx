@@ -29,7 +29,7 @@ function Project4(props) {
         <a href="https://github.com/DeanLeong/the_garage" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">GitHub Repo</Button> </a>
         <a href="https://deanleongthegarage.netlify.app/" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">Live Site</Button> </a>
       </div>
-      <p>Other Projects:</p>
+      <p className="other-projects-title">Other Projects:</p>
       <div className="other-projects-container">
       <Link to="/liftlog">
           <img

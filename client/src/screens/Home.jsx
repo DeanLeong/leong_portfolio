@@ -9,7 +9,7 @@ function Home(props) {
         <div className="img-links">
           <img src="https://i.imgur.com/ARSxrrd.jpg" className="me-img" alt="Dean Leong"></img>
             <div className="about-me">
-            <h3>
+            <h3 className="about-me-title">
               About Me:
             </h3>
               <p className="about-me-txt">
@@ -21,7 +21,7 @@ function Home(props) {
             leading and collaboration worked out.
             I hope that by becoming a developer I can bring these skills to a productive and exciting environment that values hard work and trying new things.
              </p>
-            <p>Email: dean.g.leong@gmail.com</p>
+            <p className="email">Email: dean.g.leong@gmail.com</p>
             <a href="https://drive.google.com/file/d/1H4p4v7r5iTrFTUI1nWa3IB9SruwynYUQ/view" target="_blank" rel="noreferrer" id="resume-link"><Button variant="contained" color="primary"><p>Here's My Resume</p></Button></a>
           </div>
         </div>

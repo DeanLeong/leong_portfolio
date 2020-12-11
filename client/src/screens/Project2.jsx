@@ -26,7 +26,7 @@ function Project2(props) {
         <a href="https://github.com/DeanLeong/liftlog" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">GitHub Repo</Button> </a>
         <a href="https://deanleongliftlog.netlify.app/" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">Live Site</Button> </a>
       </div>
-      <p>Other Projects:</p>
+      <p className="other-projects-title">Other Projects:</p>
       <div className="other-projects-container">
       <Link to="/greenhouse">
           <img

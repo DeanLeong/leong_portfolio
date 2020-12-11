@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.header-content,
+.about-me-title,
+.projects-title,
+.other-projects-title,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.about-me-txt,
+.project-description,
+.email {
+  font-family: "Spectral", serif;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -15,8 +29,4 @@
 
 .other-projects-container {
   margin-top: 0;
-}
-
-.header-content {
-  font-family: "Playfair Display", serif;
 }
