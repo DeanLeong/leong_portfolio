@@ -22,7 +22,7 @@ function Home(props) {
             I hope that by becoming a developer I can bring these skills to a productive and exciting environment that values hard work and trying new things.
              </p>
             <p>Email: dean.g.leong@gmail.com</p>
-            <a href="https://drive.google.com/file/d/1H4p4v7r5iTrFTUI1nWa3IB9SruwynYUQ/view" target="_blank" rel="noreferrer"><Button variant="contained" color="primary"><p>Resume</p></Button></a>
+            <a href="https://drive.google.com/file/d/1H4p4v7r5iTrFTUI1nWa3IB9SruwynYUQ/view" target="_blank" rel="noreferrer" id="resume-link"><Button variant="contained" color="primary"><p>Here's My Resume</p></Button></a>
           </div>
         </div>
         <h3 className="projects-title">Check out my projects!</h3>

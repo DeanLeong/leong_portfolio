@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css'
 import { Link } from 'react-router-dom'
+import Button from '@material-ui/core/Button'
 
 function Project1(props) {
   return (
@@ -22,10 +23,10 @@ function Project1(props) {
         </p>
        </div>
       <div className="links-container">
-        <a href="https://github.com/DeanLeong/league_champions" target="_blank" rel="noreferrer" className="project-links"> GitHub Repo </a>
-        <a href="https://deanleong.github.io/league_champions/" target="_blank" rel="noreferrer" className="project-links"> Live Site </a>
+        <a href="https://github.com/DeanLeong/league_champions" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">GitHub Repo</Button> </a>
+        <a href="https://deanleong.github.io/league_champions/" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">Live Site</Button> </a>
       </div>
-      <p>Other Projects:</p>
+      <p className="other-projects-title">Other Projects:</p>
       <div className="other-projects-container">
       <Link to="/greenhouse" >
           <img

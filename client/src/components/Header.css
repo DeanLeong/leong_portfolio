@@ -1,17 +1,14 @@
 .header {
   display: flex;
+  justify-content: center;
   background-color: #bfedc1;
   height: 10vh;
   width: 100vw;
 }
 
-/* .header-title {
-  margin-left: 30vw;
-} */
-
-/* .header-home {
-  margin-left: 1vw;
-} */
+.header-content {
+  margin-right: 2.5vw;
+}
 
 .header-contents {
   display: flex;
@@ -20,4 +17,9 @@
   justify-content: space-between;
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+#home-link {
+  text-decoration: none;
+  color: black;
 }
