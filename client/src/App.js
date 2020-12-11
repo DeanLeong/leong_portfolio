@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect } from "react";
-import { Route, Switch, useLocation, withRouter, BrowserRouter as Router } from "react-router-dom"
+import { Route, Switch, useLocation, BrowserRouter as Router } from "react-router-dom"
 import Home from "./screens/Home"
 import Project1 from "./screens/Project1"
 import Project2 from "./screens/Project2"
