@@ -5,3 +5,19 @@
   min-height: 100vh;
   min-width: 100vw;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  max-width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #fefae0;
+  margin-top: 20vh;
+}
+
+.message {
+  height: 25vh;
+}

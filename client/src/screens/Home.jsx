@@ -22,7 +22,7 @@ function Home(props) {
             I hope that by becoming a developer I can bring these skills to a productive and exciting environment that values hard work and trying new things.
              </p>
           <div className="contact-container">
-             <p className="contact-me">Contact me:</p>
+             <p className="contact-me">Contact Info:</p>
              <p className="email">Email: dean.g.leong@gmail.com</p>
              <a href="https://www.linkedin.com/in/dean-leong-2a68041b2/" target="_blank" rel="noreferrer" id="contact-linkedin"><img src="https://i.imgur.com/6T4DdWg.png" className="social-a" id="linkedin" alt="linkedin"></img></a>
              <a href="https://drive.google.com/file/d/186FX9NKwr6CTShLHVCleh_IQTrC3AHS7/view?usp=sharing" target="_blank" rel="noreferrer" id="resume-link">
