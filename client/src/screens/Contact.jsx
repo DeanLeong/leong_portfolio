@@ -5,7 +5,8 @@ function Contact(props) {
   return (
     <div className="contact-me-container">
       <div className="contact-form-container">
-        <form name="contact" method="POST" data-netlify="true" className="contact-form">
+        <form action="/contact" name="contact-form" method="post">
+        <input type="hidden" name="contact-form" value="contact-form" />
           <p>
             <label>Your Name: <input type="text" name="name" /></label>
           </p>
