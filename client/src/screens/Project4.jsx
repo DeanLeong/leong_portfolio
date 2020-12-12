@@ -10,7 +10,7 @@ function Project4(props) {
       <div className="title-image-description">
         <a href="https://deanleongthegarage.netlify.app/" target="_blank" rel="noreferrer">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/the_garage_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/main/client/src/assets/the_garage_screen.png"
            className="project-page-screen"
            alt="league champions screen">
          </img>
@@ -40,7 +40,7 @@ function Project4(props) {
         </Link>
         <Link to="/league-champions">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/league_champions_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/main/client/src/assets/league_champions_screen.png"
             className="other-project-screen"
             alt="league champions screen">
           </img>

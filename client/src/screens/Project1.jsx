@@ -10,7 +10,7 @@ function Project1(props) {
       <div className="title-image-description">
         <a href="https://deanleong.github.io/league_champions/" target="_blank" rel="noreferrer">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/league_champions_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/main/client/src/assets/league_champions_screen.png"
            className="project-page-screen"
            alt="league champions screen">
          </img>
@@ -44,7 +44,7 @@ function Project1(props) {
         </Link>
         <Link to="/the-garage">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/the_garage_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/main/client/src/assets/the_garage_screen.png"
             className="other-project-screen"
             alt="league champions screen">
           </img>

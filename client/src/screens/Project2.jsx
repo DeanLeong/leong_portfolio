@@ -37,14 +37,14 @@ function Project2(props) {
         </Link>
         <Link to="/league-champions">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/league_champions_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/main/client/src/assets/league_champions_screen.png"
             className="other-project-screen"
             alt="league champions screen">
           </img>
         </Link>
         <Link to="/the-garage">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/develop/client/src/assets/the_garage_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/main/client/src/assets/the_garage_screen.png"
             className="other-project-screen"
             alt="league champions screen">
           </img>
