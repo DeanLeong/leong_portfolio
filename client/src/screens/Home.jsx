@@ -21,9 +21,13 @@ function Home(props) {
             leading and collaboration worked out.
             I hope that by becoming a developer I can bring these skills to a productive and exciting environment that values hard work and trying new things.
              </p>
-            <p className="contact-me">Contact me:</p>
-            <p className="email">Email: dean.g.leong@gmail.com</p>
-            <a href="https://drive.google.com/file/d/1H4p4v7r5iTrFTUI1nWa3IB9SruwynYUQ/view" target="_blank" rel="noreferrer" id="resume-link"><Button variant="contained" color="primary"><p>Here's My Resume</p></Button></a>
+          <div className="contact-container">
+             <p className="contact-me">Contact me:</p>
+             <p className="email">Email: dean.g.leong@gmail.com</p>
+             <a href="https://www.linkedin.com/in/dean-leong-2a68041b2/" target="_blank" rel="noreferrer" id="contact-linkedin"><img src="https://i.imgur.com/6T4DdWg.png" className="social-a" id="linkedin" alt="linkedin"></img></a>
+             <a href="https://drive.google.com/file/d/1H4p4v7r5iTrFTUI1nWa3IB9SruwynYUQ/view" target="_blank" rel="noreferrer" id="resume-link">
+            <Button variant="contained" color="primary" className="resume-button"><p className="resume-button-text">Here's My Resume</p></Button></a>
+          </div>
           </div>
         </div>
         <h3 className="projects-title">Check out my projects!</h3>

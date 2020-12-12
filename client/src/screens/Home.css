@@ -58,6 +58,20 @@
   text-decoration: none;
 }
 
+.resume-button-text {
+  font-size: smaller;
+}
+
+.resume-button {
+  height: 8vh;
+  width: auto;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 1024px) {
   .projects-screens {
     display: grid;
