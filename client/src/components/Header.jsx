@@ -10,6 +10,9 @@ function Header(props) {
           <p className="header-content">Home</p>
         </Link>
         <p className="header-content">Dean Leong</p>
+        <Link to="/contact" className="header-content" id="contact-link">
+          <p className="header-content">Contact Me</p>
+        </Link>
       </div>
     </div>
   );
