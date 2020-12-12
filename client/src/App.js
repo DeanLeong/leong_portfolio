@@ -7,7 +7,6 @@ import Project2 from "./screens/Project2"
 import Project3 from "./screens/Project3"
 import Project4 from "./screens/Project4"
 import Layout from "./components/Layout"
-import Contact from "./screens/Contact"
 
 
 export function ScrollToTop() {
@@ -32,7 +31,6 @@ function App() {
                 <Route exact path="/liftlog" component={Project2} />
                 <Route exact path="/greenhouse" component={Project3} />
                 <Route exact path="/the-garage" component={Project4} />
-                <Route exact path="/contact" component={Contact} />
             </Switch>
           </Layout>
       </Router>

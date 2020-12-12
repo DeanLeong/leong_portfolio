@@ -20,7 +20,7 @@
   justify-content: space-between;
 }
 
-#home-link,
-#contact-link {
+#home-link {
   text-decoration: none;
+  color: black;
 }
