@@ -102,4 +102,9 @@
   .project-screen {
     height: 25vh;
   }
+
+  #linkedin {
+    height: 5vh;
+    width: 20vw;
+  }
 }
