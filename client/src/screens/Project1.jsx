@@ -16,11 +16,10 @@ function Project1(props) {
          </img>
         </a>
         <div className="icon-container">
-          {/* <p className="project-description">Built In: */}
-          <img src="https://img.icons8.com/color/48/000000/javascript.png" />
-          <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
-          {/* </p> */}
-         
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript"/>
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/html-5.png" alt="html5" />
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/css3.png" alt="css"/>
+          {/* Icons from  icons8.com*/}
         </div>
          <p className="project-description">
             The League Champions Finder is built in regular JavaScript, HTML and CSS. 
