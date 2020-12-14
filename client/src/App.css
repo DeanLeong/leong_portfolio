@@ -12,6 +12,12 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
+.projects-title,
+.other-projects-title,
+h2 {
+  color: rgb(107, 252, 228);
+}
+
 .about-me-txt,
 .project-description,
 .email {

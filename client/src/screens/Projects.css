@@ -1,7 +1,8 @@
 .project-page-container {
   display: inline-flex;
   flex-direction: column;
-  background-color: #83b5d1;
+  /* background-color: #83b5d1; */
+  background-color: rgb(38, 38, 38);
 }
 
 .project-page-screen {
