@@ -15,6 +15,13 @@ function Project2(props) {
            alt="liftlog screen">
          </img>
         </a>
+        <div className="icon-container">
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript"/>
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/html-5.png" alt="html5" />
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/css3.png" alt="css" />
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/react-native.png" alt="react"/>
+          {/* Icons from  icons8.com*/}
+        </div>
          <p className="project-description">
           Liftlog is built in React with an AirTable api and deployed to Netilfy. Users are able to use this app to record their weightlifting workouts. 
           Each note takes a day or date, an exercise, weights lifted, number of reps and a note. The saved workouts are displayed starting at the most recent. 

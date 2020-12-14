@@ -21,11 +21,21 @@
   width: 25vw;
   border: 1px solid black;
   margin: 2.5vw;
+  transition: transform 0.25s;
+}
+
+.other-project-screen:hover {
+  transform: scale(1.25);
 }
 
 .project-links {
   margin: 2.5vw;
   text-decoration: none;
+}
+
+.language-icons {
+  height: 5vh;
+  width: 2.5;
 }
 
 @media screen and (max-width: 1024px) {

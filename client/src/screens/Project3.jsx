@@ -15,6 +15,15 @@ function Project3(props) {
            alt="league champions screen">
          </img>
         </a>
+        <div className="icon-container">
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript"/>
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/html-5.png" alt="html5" />
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/css3.png" alt="css" />
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/react-native.png" alt="react" />
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/mongodb.png" alt="mongodb"/>
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/nodejs.png"alt="nodejs"/>
+          {/* Icons from  icons8.com*/}
+        </div>
          <p className="project-description">
           GreenHouse is a full-stack application built with React and Express. 
           The front end is deployed to Netlify and the back end is deployed to Heroku as well as MongoDB. 

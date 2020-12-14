@@ -28,7 +28,7 @@
 
 .me-img {
   border-radius: 50%;
-  height: 25vw;
+  height: 15vw;
   margin-left: 2.5vw;
   margin-top: 2.5vh;
 }
@@ -101,5 +101,10 @@
 
   .project-screen {
     height: 25vh;
+  }
+
+  #linkedin {
+    height: 5vh;
+    width: 20vw;
   }
 }

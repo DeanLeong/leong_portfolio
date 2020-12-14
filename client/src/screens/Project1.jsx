@@ -15,6 +15,12 @@ function Project1(props) {
            alt="league champions screen">
          </img>
         </a>
+        <div className="icon-container">
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript"/>
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/html-5.png" alt="html5" />
+          <img className="language-icons" src="https://img.icons8.com/color/48/000000/css3.png" alt="css"/>
+          {/* Icons from  icons8.com*/}
+        </div>
          <p className="project-description">
             The League Champions Finder is built in regular JavaScript, HTML and CSS. 
             Using calls to an API containing names and basic stats of the Champions in the League of Legends
