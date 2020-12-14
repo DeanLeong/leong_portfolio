@@ -19,7 +19,9 @@ export default class MyForm extends React.Component {
         onSubmit={this.submitForm}
         action="https://formspree.io/f/mrgoyykw"
         method="POST"
-      >
+        >
+        <label className="form-label">Name:</label>
+        <input type="name" name="name"></input>  
         <label className="form-label">Email:</label>
         <input type="email" name="email" />
         <label className="form-label">Message:</label>
