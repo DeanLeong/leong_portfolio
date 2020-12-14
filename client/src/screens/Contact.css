@@ -21,3 +21,8 @@
 .message {
   height: 25vh;
 }
+
+.submit-button {
+  background-color: rgb(57, 85, 176);
+  color: white;
+}
