@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <div className="header">
       <div className="header-contents">
-        <Link to='/' className="header-content" id="home-link">
+        <Link to='/home' className="header-content" id="home-link">
           <p className="header-content">Home</p>
         </Link>
         <p className="header-content">Dean Leong</p>
