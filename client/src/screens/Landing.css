@@ -1,0 +1,15 @@
+.landing-container {
+  background-color: rgb(38, 38, 38);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-welcome-msg {
+  color: white;
+}
