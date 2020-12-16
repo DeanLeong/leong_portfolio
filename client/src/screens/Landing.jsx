@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'
 import Typical from 'react-typical'
 
 function Landing(props) {
-
-  
-
   return (
     <div className="landing-container">
       <div className="landing-info-container">
