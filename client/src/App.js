@@ -8,6 +8,7 @@ import Project3 from "./screens/Project3"
 import Project4 from "./screens/Project4"
 import Contact from "./screens/Contact"
 import Layout from "./components/Layout"
+import Landing from "./screens/Landing"
 
 
 export function ScrollToTop() {
@@ -23,19 +24,20 @@ export function ScrollToTop() {
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Layout >
+      <div>
           <ScrollToTop />
             <Switch>
-                <Route exact path="/" component={Home} />
+              <Route exact path="/" component={Landing} />
+              <Layout >
+                <Route exact path="/home" component={Home} />
                 <Route exact path="/league-champions" component={Project1} />
                 <Route exact path="/liftlog" component={Project2} />
                 <Route exact path="/greenhouse" component={Project3} />
                 <Route exact path="/the-garage" component={Project4} />
-                <Route exact path="/contact" component={Contact} />
-            </Switch>
-          </Layout>
-      </Router>
+            <Route exact path="/contact" component={Contact} />
+            </Layout>
+        </Switch>
+        </div>
     </div>
   );
 }
