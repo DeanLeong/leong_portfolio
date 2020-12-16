@@ -7,14 +7,17 @@ function Landing(props) {
   return (
     <div className="landing-container">
       <div className="landing-info-container">
-        <p className="landing-welcome-msg">Hello! My name is Dean Leong, welcome to my portfolio!</p>
           <Typical
-            steps={['Hello', 1000, 'Hello world!', 500]}
+          steps={[
+            'Hello!', 500,
+            'Hello! My name is Dean Leong.', 1000,
+            'Hello! My name is Dean Leong. Welcome to my portfolio!', 1500,
+            'Hello! My name is Dean Leong.', 2000]}
             loop={Infinity}
             wrapper="p"
             className="landing-welcome-msg"
           />
-        <Link to="/home"><button>Enter</button></Link>
+        <Link to="/home"><button className="enter-button">Enter</button></Link>
       </div>
     </div>
   );

@@ -13,3 +13,17 @@
 .landing-welcome-msg {
   color: white;
 }
+
+.enter-button {
+  color: #ffffff;
+  background-color: #1c00ff00;
+  transition: 0.25;
+  padding: 0.35em 1.2em;
+  border: 0.1em 0.3em 0;
+  border-radius: 0.12em;
+}
+
+.enter-button:hover {
+  color: black;
+  background-color: #ffffff;
+}
