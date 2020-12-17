@@ -19,13 +19,13 @@ function Home(props) {
             I attribute many of my current skills to my time as a teacher.
             I had to plan, lead, collaborate and then change gears at a moment's notice when none of that planning,
             leading and collaboration worked out.
-            I hope that by becoming a developer I can bring these skills to a productive and exciting environment that values hard work and trying new things.
+            By becoming a developer I will bring these skills to a productive and exciting environment that values hard work and trying new things.
              </p>
           <div className="contact-container">
              <p className="contact-me">Contact Info:</p>
              <p className="email">Email: dean.g.leong@gmail.com</p>
              <a href="https://www.linkedin.com/in/dean-leong-2a68041b2/" target="_blank" rel="noreferrer" id="contact-linkedin"><img src="https://i.imgur.com/6T4DdWg.png" className="social-a" id="linkedin" alt="linkedin"></img></a>
-             <a href="https://drive.google.com/file/d/17OQnR9Yo0xqlvWzVXtRwEIzsvtmLRdZr/view?usp=sharing" target="_blank" rel="noreferrer" id="resume-link">
+             <a href="https://drive.google.com/file/d/1U1hO_kCYPUsCwi2P4JvF1t5_4UHXqs_r/view?usp=sharing" target="_blank" rel="noreferrer" id="resume-link">
             <Button variant="contained" color="primary" className="resume-button"><p className="resume-button-text">Here's My Resume</p></Button></a>
           </div>
           </div>
