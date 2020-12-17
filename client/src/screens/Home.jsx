@@ -19,7 +19,7 @@ function Home(props) {
             I attribute many of my current skills to my time as a teacher.
             I had to plan, lead, collaborate and then change gears at a moment's notice when none of that planning,
             leading and collaboration worked out.
-            I hope that by becoming a developer I can bring these skills to a productive and exciting environment that values hard work and trying new things.
+            By becoming a developer I will bring these skills to a productive and exciting environment that values hard work and trying new things.
              </p>
           <div className="contact-container">
              <p className="contact-me">Contact Info:</p>
