@@ -25,7 +25,7 @@ function Home(props) {
              <p className="contact-me">Contact Info:</p>
              <p className="email">Email: dean.g.leong@gmail.com</p>
              <a href="https://www.linkedin.com/in/dean-leong-2a68041b2/" target="_blank" rel="noreferrer" id="contact-linkedin"><img src="https://i.imgur.com/6T4DdWg.png" className="social-a" id="linkedin" alt="linkedin"></img></a>
-             <a href="https://drive.google.com/file/d/17OQnR9Yo0xqlvWzVXtRwEIzsvtmLRdZr/view?usp=sharing" target="_blank" rel="noreferrer" id="resume-link">
+             <a href="https://drive.google.com/file/d/1U1hO_kCYPUsCwi2P4JvF1t5_4UHXqs_r/view?usp=sharing" target="_blank" rel="noreferrer" id="resume-link">
             <Button variant="contained" color="primary" className="resume-button"><p className="resume-button-text">Here's My Resume</p></Button></a>
           </div>
           </div>
