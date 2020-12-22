@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <div>
-          <ScrollToTop />
+        <ScrollToTop />
             <Switch>
               <Route exact path="/" component={Landing} />
               <Layout >
@@ -34,9 +34,9 @@ function App() {
                 <Route exact path="/liftlog" component={Project2} />
                 <Route exact path="/greenhouse" component={Project3} />
                 <Route exact path="/the-garage" component={Project4} />
-            <Route exact path="/contact" component={Contact} />
-            </Layout>
-        </Switch>
+                <Route exact path="/contact" component={Contact} />
+             </Layout>
+          </Switch>
         </div>
     </div>
   );
