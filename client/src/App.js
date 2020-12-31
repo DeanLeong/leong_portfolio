@@ -6,6 +6,7 @@ import Project1 from "./screens/Project1"
 import Project2 from "./screens/Project2"
 import Project3 from "./screens/Project3"
 import Project4 from "./screens/Project4"
+import Project5 from "./screens/Project5"
 import Contact from "./screens/Contact"
 import Layout from "./components/Layout"
 import Landing from "./screens/Landing"
@@ -34,6 +35,7 @@ function App() {
                 <Route exact path="/liftlog" component={Project2} />
                 <Route exact path="/greenhouse" component={Project3} />
                 <Route exact path="/the-garage" component={Project4} />
+                <Route exact path="/ice-breaker-maker" component={Project5} />
                 <Route exact path="/contact" component={Contact} />
              </Layout>
           </Switch>
