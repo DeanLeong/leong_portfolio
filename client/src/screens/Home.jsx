@@ -61,6 +61,13 @@ function Home(props) {
             alt="the garage screen">
           </img>
         </Link>
+        <Link to="/ice-breaker-maker">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/ice_breaker_screen.png"
+            className="project-screen"
+            alt="ice-breaker-maker screen">
+          </img>
+        </Link>
         </div>
       </div>
   );
