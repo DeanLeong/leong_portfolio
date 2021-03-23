@@ -31,7 +31,16 @@ function Home(props) {
           </div>
         </div>
         <h3 className="projects-title">Check out my projects!</h3>
-        <div className="projects-screens">
+      <div className="projects-screens">
+      <h3 className="projects-section">Freelance Projects</h3>
+        <Link to="/fifthdimension-podcast">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/fifthdimension_screen.png"
+            className="project-screen"
+            alt="fifthdimension screen">
+          </img>
+        </Link>
+        <h3 className="projects-section">General Assembly Projects</h3>
         <Link to="/greenhouse">
           <img
             src="https://i.imgur.com/Gqvwv0U.png"
@@ -61,18 +70,12 @@ function Home(props) {
             alt="the garage screen">
           </img>
         </Link>
+        <h3 className="projects-section">Hackathon Projects</h3>
         <Link to="/ice-breaker-maker">
           <img
             src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/ice_breaker_screen.png"
             className="project-screen"
             alt="ice-breaker-maker screen">
-          </img>
-        </Link>
-        <Link to="/fifthdimension-podcast">
-          <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/fifthdimension_screen.png"
-            className="project-screen"
-            alt="fifthdimension screen">
           </img>
         </Link>
         </div>
