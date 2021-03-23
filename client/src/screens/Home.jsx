@@ -30,7 +30,7 @@ function Home(props) {
           </div>
           </div>
         </div>
-        <h3 className="projects-title">Check out my projects!</h3>
+        <h2 className="projects-title">Check out my projects!</h2>
       <div className="projects-screens">
       <h3 className="projects-section">Freelance Projects</h3>
         <Link to="/fifthdimension-podcast">
