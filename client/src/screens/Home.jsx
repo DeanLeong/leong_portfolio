@@ -68,6 +68,13 @@ function Home(props) {
             alt="ice-breaker-maker screen">
           </img>
         </Link>
+        <Link to="/fifthdimension-podcast">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/fifthdimension_screen.png"
+            className="project-screen"
+            alt="fifthdimension screen">
+          </img>
+        </Link>
         </div>
       </div>
   );
