@@ -9,12 +9,14 @@
 .contact-me,
 .form-label,
 .landing-welcome-msg,
+.projects-section,
 h2 {
   font-family: "Playfair Display", serif;
 }
 
 .projects-title,
 .other-projects-title,
+.projects-section,
 h2 {
   color: #eff1f3;
 }
