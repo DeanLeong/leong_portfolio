@@ -40,6 +40,7 @@ function Home(props) {
             alt="fifthdimension screen">
           </img>
         </Link>
+        <hr></hr>
         <h3 className="projects-section">General Assembly Projects</h3>
         <Link to="/greenhouse">
           <img
@@ -70,6 +71,7 @@ function Home(props) {
             alt="the garage screen">
           </img>
         </Link>
+        <hr></hr>
         <h3 className="projects-section">Hackathon Projects</h3>
         <Link to="/ice-breaker-maker">
           <img
