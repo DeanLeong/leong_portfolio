@@ -11,7 +11,7 @@
 .landing-welcome-msg,
 .projects-section,
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Inter", sans-serif;
 }
 
 .projects-title,
@@ -24,9 +24,9 @@ h2 {
 .about-me-txt,
 .project-description,
 .email {
-  font-family: "Spectral", serif;
+  font-family: "Inter", sans-serif;
   font-size: large;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .App-logo {
