@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import Button from '@material-ui/core/Button'
 
-function Project5(props) {
+function Project6(props) {
   return (
     <div className="project-page-container">
       <h2>Fifth Dimension Podcast</h2>
@@ -67,9 +67,16 @@ function Project5(props) {
             alt="ice-breaker-maker screen">
           </img>
         </Link>
+        <Link to="/jagan">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/add_new_section/client/src/assets/jagon_screen.png"
+            className="other-project-screen"
+            alt="jagan screen">
+          </img>
+        </Link>
       </div>
     </div>
   )
 }
 
-export default Project5;
+export default Project6;

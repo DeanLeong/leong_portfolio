@@ -8,6 +8,7 @@ import Project3 from "./screens/Project3"
 import Project4 from "./screens/Project4"
 import Project5 from "./screens/Project5"
 import Project6 from "./screens/Project6"
+import Project7 from './screens/Project7';
 import Contact from "./screens/Contact"
 import Layout from "./components/Layout"
 import Landing from "./screens/Landing"
@@ -38,6 +39,7 @@ function App() {
                 <Route exact path="/the-garage" component={Project4} />
                 <Route exact path="/ice-breaker-maker" component={Project5} />
                 <Route exact path="/fifthdimension-podcast" component={Project6} />
+                <Route exact path="/jagan" component={Project7} />
                 <Route exact path="/contact" component={Contact} />
              </Layout>
           </Switch>
