@@ -67,6 +67,13 @@ function Project7(props) {
             alt="ice-breaker-maker screen">
           </img>
         </Link>
+        <Link to="/fifthdimension-podcast">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/fifthdimension_screen.png"
+            className="other-project-screen"
+            alt="fifth-dimension podcast screen">
+          </img>
+        </Link>
       </div>
     </div>
   )

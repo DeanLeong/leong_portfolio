@@ -67,6 +67,13 @@ function Project6(props) {
             alt="ice-breaker-maker screen">
           </img>
         </Link>
+        <Link to="/jagan">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/add_new_section/client/src/assets/jagon_screen.png"
+            className="other-project-screen"
+            alt="jagan screen">
+          </img>
+        </Link>
       </div>
     </div>
   )

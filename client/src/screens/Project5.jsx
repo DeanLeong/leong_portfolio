@@ -64,6 +64,20 @@ function Project5(props) {
             alt="league champions screen">
           </img>
         </Link>
+        <Link to="/fifthdimension-podcast">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/fifthdimension_screen.png"
+            className="other-project-screen"
+            alt="fifth-dimension podcast screen">
+          </img>
+        </Link>
+        <Link to="/jagan">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/add_new_section/client/src/assets/jagon_screen.png"
+            className="other-project-screen"
+            alt="jagan screen">
+          </img>
+        </Link>
       </div>
     </div>
   )
