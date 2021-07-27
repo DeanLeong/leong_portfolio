@@ -72,6 +72,15 @@ function Home(props) {
           </img>
         </Link>
         <hr></hr>
+        <h3 className="projects-section">Personal Projects</h3>
+        <Link to="/ice-breaker-maker">
+          <img
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/ice_breaker_screen.png"
+            className="project-screen"
+            alt="ice-breaker-maker screen">
+          </img>
+        </Link>
+        <hr></hr>
         <h3 className="projects-section">Hackathon Projects</h3>
         <Link to="/ice-breaker-maker">
           <img
@@ -80,8 +89,8 @@ function Home(props) {
             alt="ice-breaker-maker screen">
           </img>
         </Link>
-        </div>
       </div>
+    </div>
   );
 }
 
