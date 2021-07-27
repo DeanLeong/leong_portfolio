@@ -73,11 +73,11 @@ function Home(props) {
         </Link>
         <hr></hr>
         <h3 className="projects-section">Personal Projects</h3>
-        <Link to="/ice-breaker-maker">
+        <Link to="/jagan">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/ice_breaker_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/add_new_section/client/src/assets/jagon_screen.png"
             className="project-screen"
-            alt="ice-breaker-maker screen">
+            alt="jagan screen">
           </img>
         </Link>
         <hr></hr>

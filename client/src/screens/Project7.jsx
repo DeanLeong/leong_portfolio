@@ -2,16 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import Button from '@material-ui/core/Button'
 
-function Project6(props) {
+function Project7(props) {
   return (
     <div className="project-page-container">
-      <h2>Fifth Dimension Podcast</h2>
+      <h2>Jagan Website *WIP*</h2>
       <div className="title-image-description">
-        <a href="https://thefifthdimensionpodcast.org/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/DeanLeong/jagon" target="_blank" rel="noreferrer">
           <img
-            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/development/client/src/assets/fifthdimension_screen.png"
+            src="https://raw.githubusercontent.com/DeanLeong/leong_portfolio/add_new_section/client/src/assets/jagon_screen.png"
            className="project-page-screen"
-           alt="Fifth Dimension Podcast screen">
+           alt="Jagan screen">
          </img>
         </a>
         <div className="icon-container">
@@ -23,12 +23,12 @@ function Project6(props) {
           {/* Icons from  icons8.com*/}
         </div>
          <p className="project-description">
-         The Fifth Dimension Site is built to support the growing podcast of the same name. To do this I contacted some former classmates after picking up the job and created a small team to create a high-quality, functional website. Planning consisted of consulting the client on what the website will be used for and how it should look. From there, we decided that the appropriate tech stack would be a React front-end with a Rails back-end. Additionally, we implemented some industry-standard add ons such as TinyMCE for writing blog posts and Formspree for contacting the client. Over the course of several weeks we were able to work asynchronously using Slack and GitHub Projects to communicate and track progress. The website was designed for immediate access to the client’s podcast as well as the ability for the client to write blog posts with full CRUD. The client is able to log in to their admin account to write these blogs, maintain their email list and change their password. The website is hosted on Netlify and Heroku.
+         Jagan is a website for the DND campaign group of the same name. The website is designed to be a central application where a variety of helpful DND information can be added, deleted etc. This includes PCs, NPCS and notes. There are general group notes and personal player notes. This website is built with a Rails back end and a React front end is being built.
         </p>
        </div>
       <div className="links-container">
-        <a href="https://github.com/DeanLeong/fifthdimension" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">GitHub Repo</Button> </a>
-        <a href="https://thefifthdimensionpodcast.org/" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">Live Site</Button> </a>
+        <a href="https://github.com/DeanLeong/jagon" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">GitHub Repo</Button> </a>
+        {/* <a href="https://thefifthdimensionpodcast.org/" target="_blank" rel="noreferrer" className="project-links"> <Button variant="contained" color="secondary">Live Site</Button> </a> */}
       </div>
       <p className="other-projects-title">Other Projects:</p>
       <div className="other-projects-container">
@@ -72,4 +72,4 @@ function Project6(props) {
   )
 }
 
-export default Project6;
+export default Project7;
